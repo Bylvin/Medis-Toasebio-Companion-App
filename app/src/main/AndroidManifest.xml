@@ -9,6 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MedisToasebioCompanionApp">
+        <activity android:name=".Member.Login_Member_Activity"></activity>
+        <activity android:name=".Doctor.Login_Doctor_Activity" />
+        <activity android:name=".ChooseActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
