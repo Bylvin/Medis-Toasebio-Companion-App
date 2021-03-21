@@ -20,18 +20,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
+        android:fontFamily="@font/bungee_regular"
         android:text="MEDIS TOASEBIO"
-        android:fontFamily="monospace"
-        android:textSize="40sp"
         android:textAlignment="center"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/tagline_app"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Companion App"
-        android:fontFamily="monospace"
+        android:fontFamily="@font/bungee_regular"
         android:textSize="30sp"
         android:textAlignment="center"
         android:textColor="@color/white"/>

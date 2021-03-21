@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:layout_marginBottom="20dp"
-        android:text="WHO ARE YOU ?"
+        android:text="SIAPA KAMU ?"
         android:fontFamily="monospace"
         android:textSize="40sp"
         android:textAlignment="center"
@@ -47,7 +47,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/icon_doctor"
             app:layout_constraintVertical_bias="0.032"
-            android:text="DOCTOR"
+            android:text="Dokter"
             android:textSize="30dp"
             android:onClick="GotoLoginDoctor"/>
 
@@ -73,7 +73,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/icon_member"
             app:layout_constraintVertical_bias="0.14"
-            android:text="Member"
+            android:text="Anggota"
             android:textSize="30dp"
             android:onClick="GotoLoginMember"/>
 
